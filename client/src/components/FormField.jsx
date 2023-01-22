@@ -17,7 +17,7 @@ const FormField = ({
             <div className="flex items-center gap-2 mb-2">
                 <label
                     htmlFor={name}
-                    className="block text-sm font-medium text-gray-900"
+                    className="block text-sm dark:text-white font-medium text-gray-900"
                 >
                     {labelName}
                 </label>
@@ -25,7 +25,7 @@ const FormField = ({
                     <button
                         type="button"
                         onClick={handleSurpriseMe}
-                        className="font-semibold text-xs bg-[#ECECF1] py-1 px-2 rounded [5x] text-black"
+                        className="font-semibold text-xs dark:text-white dark:bg-[#6469ff] bg-[#ECECF1] py-1 px-2 rounded [5x] text-black"
                     >
                         Surprise me
                     </button>
@@ -39,7 +39,7 @@ const FormField = ({
                   value={value}
                   onChange={handleChange}
                   required
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#6469ff] focus:border-[#4649ff] outline-none block w-full p-3"
+                  className="bg-gray-50 border border-gray-300 dark:text-white dark:border-gray-500 text-gray-900 dark:bg-[#4C4A66] text-sm rounded-lg focus:ring-[#6469ff] focus:border-[#4649ff] outline-none block w-full p-3"
                   />
                 
         </div>
