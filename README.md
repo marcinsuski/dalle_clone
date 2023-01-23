@@ -10,10 +10,7 @@ On "create-post" page user can create picture based on custom prompts or choose 
 Pictures are stored in cloudinary account and MongoDB stores data to post and get the prompts.
 The app has light and dark mode, depending on user preference.
 
-For it to work, one has to configure .env file in server directory and add their own:
-- OpenAI API KEY
-- MongoDB database link with credentials
-- Cloudinary name, key and secret
+
 
 ## 📦 Tech stack:
 - Vite
@@ -32,6 +29,21 @@ Click the link and check the demo app: [Dalee-link](https://ms-dalle.netlify.app
 
 ![](./client/src/assets/screenshot_light.JPG)
 ![](./client/src/assets/screenshot_dark.JPG)
+
+## 💾 Installation
+# /server:
+- install modules (CLI):  "npm install"
+- add .env file and to add following data of your own:
+OPENAI_API_KEY="your_key"
+MONGODB_URL="your_mongodb_link"
+CLOUDINARY_CLOUD_NAME="cloud_name"
+CLOUDINARY_API_KEY="your_key"
+CLOUDINARY_API_SECRET="secret"
+- run local server (CLI):  "npm run dev"
+
+# /client:
+- install modules (CLI):  "npm install"
+- change both fetch addresses (in both src/pages/Home.jsx and src/pages/CreatePost.jsx) to localhost - run local server (CLI):  "npm run dev"
 
 
 ## ☎️ Contact
