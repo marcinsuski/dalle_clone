@@ -25,7 +25,7 @@ The app has light and dark mode, depending on user preference.
  
 ## 💻 Demo
 
-Click the link and check the demo app: [Dalee-link](https://ms-dalle.netlify.app/)
+Click the link and check the demo app: [Dalle-link](https://ms-dalle.netlify.app/)
 
 ![](./client/src/assets/screenshot_light.JPG)
 ![](./client/src/assets/screenshot_dark.JPG)
@@ -34,16 +34,17 @@ Click the link and check the demo app: [Dalee-link](https://ms-dalle.netlify.app
 # /server:
 - install modules (CLI):  "npm install"
 - add .env file and to add following data of your own:
-OPENAI_API_KEY="your_key"
-MONGODB_URL="your_mongodb_link"
-CLOUDINARY_CLOUD_NAME="cloud_name"
-CLOUDINARY_API_KEY="your_key"
-CLOUDINARY_API_SECRET="secret"
+  - OPENAI_API_KEY="your_key"
+  - MONGODB_URL="your_mongodb_link"
+  - CLOUDINARY_CLOUD_NAME="cloud_name"
+  - CLOUDINARY_API_KEY="your_key"
+  - CLOUDINARY_API_SECRET="secret"
 - run local server (CLI):  "npm run dev"
 
 # /client:
 - install modules (CLI):  "npm install"
-- change both fetch addresses (in both src/pages/Home.jsx and src/pages/CreatePost.jsx) to localhost - run local server (CLI):  "npm run dev"
+- change both fetch addresses (in both src/pages/Home.jsx and src/pages/CreatePost.jsx) to localhost 
+- run local server (CLI):  "npm run dev"
 
 
 ## ☎️ Contact
