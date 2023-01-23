@@ -1,5 +1,6 @@
 node_modules
 /client/node_modules
 /client/.gitignore
+/client/dist
 /server/node_modules
 /server/.env
