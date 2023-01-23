@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import { logo, logoBlack} from "./assets";
+import { logo, logoBlack } from "./assets";
 
 import { Home, CreatePost } from "./pages";
 
