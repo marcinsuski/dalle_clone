@@ -17,7 +17,7 @@ The app has light and dark mode, depending on user preference.
 - MongoDB
 - Express.js
 - React with Hooks
-- Node.ks
+- Node.js
 - Tailwind css
 - OpenAI API
 - Cloudinary
