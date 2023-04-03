@@ -1,7 +1,6 @@
 import React from "react";
 import { Form } from "react-router-dom";
 
-
 const FormField = ({
     labelName,
     type,
@@ -31,17 +30,16 @@ const FormField = ({
                     </button>
                 )}
             </div>
-                  <input 
-                  type={type}
-                  id={name}
-                  name={name}
-                  placeholder={placeholder}
-                  value={value}
-                  onChange={handleChange}
-                  required
-                  className="bg-gray-50 border border-gray-300 dark:text-white dark:border-gray-500 text-gray-900 dark:bg-[#4C4A66] text-sm rounded-lg focus:ring-[#6469ff] focus:border-[#4649ff] outline-none block w-full p-3"
-                  />
-                
+            <input
+                type={type}
+                id={name}
+                name={name}
+                placeholder={placeholder}
+                value={value}
+                onChange={handleChange}
+                required
+                className="bg-gray-50 border border-gray-300 dark:text-white dark:border-gray-500 text-gray-900 dark:bg-[#4C4A66] text-sm rounded-lg focus:ring-[#6469ff] focus:border-[#4649ff] outline-none block w-full p-3"
+            />
         </div>
     );
 };
